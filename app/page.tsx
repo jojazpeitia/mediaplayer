@@ -5,8 +5,8 @@ import {MdClose, MdRemove, MdOutlineHome, MdCheckBoxOutlineBlank} from 'react-ic
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className='bg-white w-96 h-96 shadow-2xl'>
-        <div className='flex flex-row'>
+      <div className='bg-gray-100 w-96 h-96 shadow-3xl rounded-xl'>
+        <div className='bg-white flex flex-row justify-between'>
           <MdOutlineHome/>
           <div className='flex flex-row'>
             <MdRemove/>
